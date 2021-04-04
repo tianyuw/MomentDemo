@@ -1,0 +1,51 @@
+h1 {
+    font-size: 3rem;
+    color: #000;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+p{
+    color:#000;
+    font-size: 1rem;
+}
+
+.verification-container {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.verification-input-container {
+    display: flex;
+    min-height: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.verification-input{
+    width: 50vw;
+}
+
+.auth-container{
+    width: 100vw;
+    display: flex;
+}
+
+.auth-container p{
+    margin-left: 1rem;
+}
+
+.tel-box{
+    display: flex;
+    justify-content: start;
+}
+
